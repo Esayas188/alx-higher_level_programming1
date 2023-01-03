@@ -12,7 +12,7 @@ def max_integer(list=[]):
     res = list[0]
     i = 1
     while i < len(list):
-        if list[i] > res:
+        if list[i] > result:
             res = list[i]
         i += 1
-    return res
+    return result
